@@ -1,8 +1,8 @@
 # scripts/client.ps1
 $ErrorActionPreference = "Stop"
 
+$DcIp = "192.168.77.10"
 $DomainName = "lab.local"
-$DcIp = "192.168.56.10"
 
 Write-Host "Setting DNS to DC ($DcIp)..." -ForegroundColor Cyan
 
