@@ -8,7 +8,7 @@
   # DOMAIN CONTROLLER
   # =====================================================
   config.vm.define "dc01" do |dc|
-    dc.vm.box = "generic/windows2022"
+    dc.vm.box = "gusztavvargadr/windows-server-2022-standard"
     dc.vm.hostname = "DC01"
 
     dc.vm.network "private_network", ip: "192.168.77.10"
